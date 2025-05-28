@@ -52,7 +52,7 @@ const CtaForm = () => {
         if (validate()) {
             console.log('تم إرسال النموذج بنجاح:', formData);
             // You can add your reservation logic here
-            makeAppointment({...formData     ,   landingPageId: id,utmSource: utmSource, createdAt: new Date().toISOString() ,isContacted: false   
+            makeAppointment({...formData     ,   landingPageId: id,utmSource: utmSource, createdAt: new Date().toISOString() ,isContacted: false  , clientStatus: ''
 })
         .then(response => {
             navigate('/thankyou');
