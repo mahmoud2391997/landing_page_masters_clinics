@@ -20,6 +20,7 @@ import Product from '../ProductSinglePage/product';
 import ProductGrid from '../offers/index.tsx';
 import { useLocation, useParams } from 'react-router-dom';
 import { fetchContent } from '../../api/content.js';
+import SocialMedia from '../../components/whatsAppFloating/index.js';
 const tours = [
     {
       image:
@@ -169,6 +170,7 @@ const { search } = useLocation(); // Gets the query string
              <Hero hclass={'static-hero'}/> 
             {/* <Navbar hclass={'wpo-site-header'} Logo={Logo} /> */}
             <CtafromSection hclass={'ctafrom_section'}/>
+            <SocialMedia />
          {/* <ProductGrid hclass={'product_grid_section section-padding'} tours={content.offers}/>  */}
             {/* <CtaSection tClass={'cta_section'} /> */}
             {/* <ServiceSection hclass={"service_section section-padding"} /> */}

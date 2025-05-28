@@ -1,0 +1,104 @@
+/* Floating position with smooth transition */
+.floating-whatsapp {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  z-index: 999;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Button styles with gradient and better shadow */
+.whatsapp-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  background: linear-gradient(135deg, #25D366, #128C7E);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.3);
+  animation: fadeSlideIn 0.6s ease-out;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  width: auto;
+  min-width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+
+/* WhatsApp icon with pulse animation */
+.whatsapp-icon {
+  font-size: 24px;
+  flex-shrink: 0;
+  animation: pulse 2s infinite;
+}
+
+/* Text beside icon with smooth transition */
+.whatsapp-text {
+  font-size: 15px;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Hover effect with expanded state */
+.whatsapp-button:hover {
+  background: linear-gradient(135deg, #1ebe57, #0d7c6e);
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-button:hover .whatsapp-text {
+  transform: translateX(2px);
+}
+
+/* Fade and slide in on load */
+@keyframes fadeSlideIn {
+  from {
+    transform: translateY(30px) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Pulse animation instead of bounce */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .whatsapp-button {
+    padding: 12px 16px;
+  }
+  
+  .whatsapp-text {
+    font-size: 14px;
+  }
+}
+
+/* Optional: Collapse to just icon when screen is very small */
+@media (max-width: 480px) {
+  .whatsapp-button {
+    width: 48px;
+    padding: 12px;
+  }
+  
+  .whatsapp-text {
+    display: none;
+  }
+}
