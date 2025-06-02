@@ -2,9 +2,9 @@ import axios from 'axios';
 
 export const fetchContent = async (endpoint) => {
     try {
-        const response = await axios.get(`https://www.ss.mastersclinics.com/landingpage/${endpoint}`);
-        console.log('API call successful:', response.data);
+        const response = await axios.get(`http://localhost:3000/landingpage/${endpoint}`);
         
+        console.log('API call successful:', response.data);
         return response.data;
     } catch (error) {
         console.error('API call failed:', error);
@@ -13,7 +13,7 @@ export const fetchContent = async (endpoint) => {
 };
 export const makeAppointment = async ( data) => {
     try {
-        const response = await axios.post(`https://www.ss.mastersclinics.com/appointments`, data);
+        const response = await axios.post(`http://localhost:3000/appointments`, data);
         return response.data;
     } catch (error) {
         console.error('API call failed:', error);
@@ -22,7 +22,7 @@ export const makeAppointment = async ( data) => {
 };
 export const getBranches = async () => {
     try {
-        const response = await axios.get(`https://www.ss.mastersclinics.com/branches`);
+        const response = await axios.get(`http://localhost:3000/branches`);
         return response.data;
     } catch (error) {
         console.error('API call failed:', error);

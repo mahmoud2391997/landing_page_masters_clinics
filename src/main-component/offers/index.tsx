@@ -16,7 +16,7 @@ interface TourGridProps {
 
 const TourGrid: React.FC<TourGridProps> = ({tours}) => {
   
-
+console.log("Tours:", tours);
   return (
     <div className="container">
         <div className="row justify-content-left">
