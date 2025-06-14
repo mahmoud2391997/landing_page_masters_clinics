@@ -287,21 +287,21 @@ const HomePage = () => {
             <CtafromSection hclass={'ctafrom_section'} />
             <SocialMedia />
   <ProductGrid hclass={'product_grid_section section-padding'}  /> 
-//             {/* <CtaSection tClass={'cta_section'} /> */}
-//             {/* <ServiceSection hclass={"service_section section-padding"} /> */}
-//             {/* <About hclass={'about_section section-padding'}/> */}
-//             {/* <ProcessSection hclass={"work_section section-padding"}/> */}
-//         {/* <TeamSection hclass={'team_section section-padding'} Teams={content.doctors}/>  */}
-//             {/* <FunFact hclass={'funfact_section'} /> */}
-//             {/* <BlogSection tClass={'blog_section section-padding'}/> */}
-//             {/* <AppointmentSection hclass={'appointment_section'}/> */}
-//             {/* <ProjectSection hclass={'project_section section-padding'}/> */}
-//             {/* <Testimonial tClass={'testimonial_section testimonial_section_slider'} /> */}
+{/* //             <CtaSection tClass={'cta_section'} /> */}
+            <ServiceSection hclass={"service_section section-padding"} />
+           <About hclass={'about_section section-padding'}/>
+            <ProcessSection hclass={"work_section section-padding"}/>
+         <TeamSection hclass={'team_section section-padding'} /> 
+      <FunFact hclass={'funfact_section'} />
+           <BlogSection tClass={'blog_section section-padding'}/>
+           <AppointmentSection hclass={'appointment_section'}/>
+          <ProjectSection hclass={'project_section section-padding'}/>
+<Testimonial tClass={'testimonial_section testimonial_section_slider'} />
 //            
-            {/* Future content driven by fetch */}
-            {/* {content && content.doctors && (
+            Future content driven by fetch
+            {content && content.doctors && (
                 <TeamSection hclass={'team_section section-padding'} Teams={content.doctors} />
-            )} */}
+            )}
 
             <Footer hclass={'wpo-site-footer'} />
             <Scrollbar />
