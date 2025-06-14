@@ -5,12 +5,12 @@
 .appointment_section_s2 {
     position: relative;
     margin-top: -225px;
-    margin-left: -95px;
+    margin-right: -95px;
     margin-bottom: 120px;
     z-index: 1;
 
     @media (max-width:1799px) {
-        margin-left: 0px;
+        margin-right: 0px;
     }
 
     @media (max-width:991px) {
@@ -44,16 +44,16 @@
     .about_left {
         position: unset;
         margin-right: -100px;
-        margin-left: 80px;
+        margin-right: 80px;
 
         @media (max-width:1499px) {
             margin-right: -50px;
-            margin-left: 40px;
+            margin-right: 40px;
         }
 
         @media (max-width:1199px) {
             margin-right: 0px;
-            margin-left: 0px;
+            margin-right: 0px;
             margin-bottom: 40px;
         }
     }
@@ -137,15 +137,15 @@
 
         .shape-icon {
             position: absolute;
-            left: 56%;
+            right: 56%;
 
             @media (max-width:991px) {
                 font-size: 100px;
-                left: 55%;
+                right: 55%;
             }
 
             @media (max-width:767px) {
-                left: 75%;
+                right: 75%;
             }
         }
 

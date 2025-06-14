@@ -21,7 +21,7 @@
 
         .accordion-body {
             padding-left: 0;
-            padding-right: 0;
+            padding-left: 0;
         }
 
         button {
@@ -29,10 +29,10 @@
             border: 0;
             border-radius: 0;
             padding-left: 0;
-            padding-right: 0;
+            padding-left: 0;
             font-size: 18px;
             color: $heading-color;
-            text-align: left;
+            text-align: right;
             font-family: $base-font;
             background: transparent;
             position: relative;

@@ -6,6 +6,8 @@ html {
     scroll-behavior: unset;
 }
 body {
+    direction: rtl;
+    text-align: right;
     font-family: $base-font;
     color:$body-color;
     background-color: $body-bg-color;
@@ -98,7 +100,7 @@ img{
         font-size: calc-rem-value(14);
         font-weight: normal;
         margin: 5px 0 0 0;
-        text-align: left;
+        text-align: right;
         display: block;
     }
 

@@ -37,7 +37,7 @@
 
     .cart-wrap th.remove {
         width: 15%;
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .cart-wrap tbody .wishlist-item {
@@ -70,7 +70,7 @@
     }
 
     .cart-wrap .action {
-        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .td-quantity {
@@ -99,12 +99,12 @@
                 font-size: 18px;
                 line-height: 30px;
                 color: #6F6F6F;
-                text-align: left;
+                text-align: right;
                 padding-left: 20px;
             }
 
             .dec.qtybutton {
-                left: auto;
+                right: auto;
                 top: 25px;
                 border-top: 1px solid #C9C9C9;
             }
@@ -167,7 +167,7 @@
             padding: 0;
             height: 50px;
             width: 130px;
-            margin-left: 20px;
+            margin-right: 20px;
             border: 1px solid $border-color;
             color: $heading-color;
 
@@ -181,7 +181,7 @@
             }
 
             @media(max-width:575px) {
-                margin-left: 10px;
+                margin-right: 10px;
             }
 
             &::before {
@@ -257,7 +257,7 @@
             position: absolute;
             content: "";
             bottom: -3px;
-            left: 50%;
+            right: 50%;
             transform: translate(-50%, -50%);
             height: 2px;
             width: 100px;
@@ -304,7 +304,7 @@
         }
 
         ul {
-            margin-left: 20px;
+            margin-right: 20px;
 
             .free {
                 padding-top: 7px;
@@ -459,7 +459,7 @@
                 line-height: 23px;
                 color: #A9A9A9;
                 border-radius: 0;
-                margin-left: 10px;
+                margin-right: 10px;
             }
             .fi {
                 font-size: 15px;
@@ -474,7 +474,7 @@
         background: #fff;
         position: absolute;
         top: 58px;
-        left: -1px;
+        right: -1px;
         width: 300px;
         overflow: hidden;
         max-height: 300px;
@@ -496,7 +496,7 @@
             width: 100%;
             height: 100%;
             padding: 10px 20px;
-            padding-right: 40px;
+            padding-left: 40px;
             border: 0;
             border-bottom: 1px solid transparent;
             border-radius: 5px;
@@ -591,7 +591,7 @@
 .countries-wrapper {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     background: #fff;
     z-index: 9;
 
@@ -728,7 +728,7 @@
         font-weight: 400;
         font-size: 18px;
         color: #233D50;
-        padding-right: 60px;
+        padding-left: 60px;
         text-align: center;
     }
 
@@ -757,7 +757,7 @@
 
         .check-box {
             padding-left: 20px;
-            padding-right: 15px;
+            padding-left: 15px;
 
             .myproject-checkbox {
                 height: 20px;
@@ -864,7 +864,7 @@
     }
 
     .add-wish {
-        padding-right: 60px;
+        padding-left: 60px;
 
         .theme-btn-s2 {
             padding: 10px 28px;
@@ -872,7 +872,7 @@
     }
 
     .cart-wrap .action {
-        padding-right: 60px;
+        padding-left: 60px;
     }
 
     .cart-wrap .action .w-btn {

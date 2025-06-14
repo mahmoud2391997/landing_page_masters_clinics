@@ -4,7 +4,7 @@
 	margin-top: 60px;
 
 	@include media-query(991px) {
-		text-align: left;
+		text-align: right;
 		margin-top: 40px;
 	}
 
@@ -66,18 +66,18 @@
 }
 
 .pagination-wrapper-left {
-	text-align: left;
+	text-align: right;
 }
 
 .pagination-wrapper-right {
 	text-align: right;
 
 	@include widther(1200px) {
-		padding-right: 50px;
+		padding-left: 50px;
 	}
 
 	@include media-query(991px) {
 		margin-top: 45px;
-		text-align: left;
+		text-align: right;
 	}
 }

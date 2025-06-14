@@ -287,7 +287,7 @@
 
 			i {
 				display: inline-block;
-				padding-right: 7px;
+				padding-left: 7px;
 			}
 		}
 	}
@@ -376,7 +376,7 @@
 		h2 {
 			font-size: 36px;
 			font-weight: 700;
-			text-align: left;
+			text-align: right;
 			color: $white;
 			margin-bottom: 20px;
 
@@ -398,7 +398,7 @@
 			border: 1px solid $white;
 			font-size: 18px;
 			color: $white;
-			padding-right: 90px;
+			padding-left: 90px;
 			position: relative;
 			margin-top: 10px;
 
@@ -421,7 +421,7 @@
 	.blog-sidebar {
 		@include widther(992px) {
 			padding-left: 0px;
-			padding-right: 45px;
+			padding-left: 45px;
 		}
 	}
 }
@@ -431,7 +431,7 @@
 	.blog-sidebar {
 		@include widther(992px) {
 			padding-left: 0px;
-			padding-right: 45px;
+			padding-left: 45px;
 		}
 	}
 }
