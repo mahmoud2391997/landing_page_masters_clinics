@@ -37,7 +37,7 @@ const AllRoute = () => {
           <Route path="/" element={<Homepage />} />
 
           <Route path="/thankyou" element={<ThankYouPage />} />
-          {/* <Route path="home" element={<Homepage />} />
+          <Route path="home" element={<Homepage />} />
           <Route path="home-2" element={<HomePage2 />} />
           <Route path="home-3" element={<HomePage3 />} />
           <Route path="about" element={<AboutPage />} />
@@ -59,7 +59,7 @@ const AllRoute = () => {
           <Route path='blog-single/:slug' element={<BlogDetails />} />
           <Route path='blog-single-left-sidebar/:slug' element={<BlogDetailsLeftSiide />} />
           <Route path='blog-single-fullwidth/:slug' element={<BlogDetailsFull />} />
-          <Route path='contact' element={<ContactPage />} /> */}
+          <Route path='contact' element={<ContactPage />} />
           <Route path='404' element={<ErrorPage />} /> 
         </Routes>
       </BrowserRouter>

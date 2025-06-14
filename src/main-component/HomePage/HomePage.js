@@ -286,7 +286,7 @@ const HomePage = () => {
             <Hero hclass={'static-hero'} />
             <CtafromSection hclass={'ctafrom_section'} />
             <SocialMedia />
-  {/* <ProductGrid hclass={'product_grid_section section-padding'}  />  */}
+  <ProductGrid hclass={'product_grid_section section-padding'}  /> 
 //             {/* <CtaSection tClass={'cta_section'} /> */}
 //             {/* <ServiceSection hclass={"service_section section-padding"} /> */}
 //             {/* <About hclass={'about_section section-padding'}/> */}
